@@ -1,4 +1,3 @@
-// Task 4 - Background Color Change
 let isGradient = true;
 
 document.getElementById("colorBtn").addEventListener("click", function () {
@@ -10,7 +9,6 @@ document.getElementById("colorBtn").addEventListener("click", function () {
     isGradient = !isGradient;
 });
 
-// Task 5 - API Fetch
 function getUser() {
     fetch("https://jsonplaceholder.typicode.com/users/1")
         .then(response => response.json())
@@ -23,7 +21,6 @@ function getUser() {
         });
 }
 
-// Task 6 - Form Validation
 document.getElementById("myForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
