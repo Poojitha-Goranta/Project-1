@@ -1,0 +1,51 @@
+/* Mobile*/
+@media(max-width: 576px){
+    h1{
+        font-size: 28px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    img{
+        height: 250px !important;
+    }
+}
+
+/* Tablets*/
+@media (min-width:577px) and (max-width: 768px){
+    h1{
+        font-size: 32px !important;
+    }
+    p{
+        font-size: 18px !important;
+    }
+    img{
+        height: 300px !important;
+    }
+}
+
+/* Laptops*/
+@media (min-width:769px){
+    h1{
+        font-size: 40px !important;
+    }
+    p{
+        font-size: 20px !important;
+    }
+    img{
+        height: 380px !important;
+    }
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #FFF7E9, #F9E4C8);
+}
+h1{
+    color: #6b4f4f;
+}
+p{
+    color: #a47551;
+}
+img:hover {
+    transform: scale(1.03);
+}
